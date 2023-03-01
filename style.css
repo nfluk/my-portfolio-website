@@ -91,16 +91,35 @@ h1 {
   margin: 3rem 35rem;
 }
 
-.about > p {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .about > img {
   height: 100px;
+  margin-bottom: 2rem;
+}
+
+.about > h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.about > p {
+  margin-bottom: 2rem;
 }
 
 .links {
   display: flex;
   flex-direction: row;
+}
+
+.links {
+  gap: 2rem;
+}
+
+.icon > a > img {
+  height: 35px;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
