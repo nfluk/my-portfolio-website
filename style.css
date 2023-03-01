@@ -115,11 +115,61 @@ h1 {
   gap: 2rem;
 }
 
-.icon > a > img {
+.social-icon > a > img {
   height: 35px;
   border-radius: 50%;
 }
 
-.icon:hover {
+.social-icon:hover {
   transform: scale(1.1);
+}
+
+/* SKILLS */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 1rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
+  min-width: 120px;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.icon > img {
+  height: 50px;
+}
+
+.icon > p {
+  margin-bottom: 0.4rem;
+}
+
+.skill-logo {
+  justify-self: center;
+  align-self: center;
+}
+
+.black {
+  color: black;
+  text-align: center;
+}
+
+/* PROJECTS */
+.project-grid {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.project-grid > img {
+  max-height: 30vh;
+  border-radius: 5px;
 }
