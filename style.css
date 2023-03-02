@@ -191,6 +191,7 @@ h1 {
 .contact > h1 {
   text-decoration: underline;
   text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
 }
 
 .contact > h2 > a:hover {
